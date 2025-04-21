@@ -1,5 +1,6 @@
 # Problem: Create a Car class with attributes like brand and model. Then create an instance of this class.
 
+# remenber class name first letter must be capital like Car here in below eg
 class Car:
     def __init__(self,brand,model):
         self.brand = brand
