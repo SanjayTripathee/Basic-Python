@@ -22,12 +22,12 @@
 
 # another eg:
 
-# def outer(num):
-#     def inner(x):
-#         return x**num
-#     return inner
+def outer(num):
+    def inner(x):
+        return x**num
+    return inner
 
-# a = outer(2)
-# b = outer(3)
-# print(a(2))
-# print(b(3))
+a = outer(2)
+b = outer(3)
+print(a(2))
+print(b(3))
