@@ -25,3 +25,5 @@ def expensive_function(*args, **kwargs):
 print(expensive_function(1, 2, 3))
 print(expensive_function(1, 2, 3))# this will not execute because it is cashed i.e  # Uses cached result of above line
 print(expensive_function(2,2,1)) # here args i.e argument is diffn so, it will be recalculate
+
+
